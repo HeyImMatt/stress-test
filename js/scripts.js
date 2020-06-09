@@ -7,6 +7,6 @@ $(document).ready(function(){
       const stressResponses = $(this).val();
       $('#stress-responses').append(stressResponses + "<br>");
     });
-    
+    console.log($("input:checkbox[name=stress-symptoms]:checked"))
   });
 });
